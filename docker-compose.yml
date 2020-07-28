@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  api:
+    build: .
+    container_name: books_membership
+    image: books_membership
+    volumes:
+      - ../books-membership:/opt/code
+    ports:
+      - "8080:8080"
