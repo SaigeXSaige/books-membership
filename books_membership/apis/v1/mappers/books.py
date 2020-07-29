@@ -9,4 +9,4 @@ class BookMapper(BaseMapper):
 
     __type__ = Book
 
-    name = field.String()
+    title = field.String()

@@ -7,4 +7,4 @@ class Book(BaseMixin, db.Model):
   
   __tablename__ = 'book'
   
-  name = db.Column(db.Unicode(255), nullable=False)
+  title = db.Column(db.Unicode(255), nullable=False)
